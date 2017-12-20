@@ -8,6 +8,8 @@
 
   :figwheel {:server-port 4983}
 
+  :doo {:paths {:karma "./node_modules/karma/bin/karma"}}
+
   :npm {:devDependencies [[ws "2.0.1"]
                           [karma "1.5.0"]
                           [karma-chrome-launcher "2.0.0"]
