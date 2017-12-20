@@ -1,2 +1,4 @@
 language: clojure
 script: lein doo chrome "tests" once
+addons:
+  chrome: stable

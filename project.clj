@@ -15,8 +15,7 @@
                           [karma-chrome-launcher "2.0.0"]
                           [karma-cli "1.0.1"]
                           [karma-cljs-test "0.1.0"]
-                          [karma-safari-launcher "1.0.0"]
-                          [puppeteer "0.13.0"]]}
+                          [karma-safari-launcher "1.0.0"]]}
 
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.8.0"]
                                   [com.cemerick/piggieback "0.2.2"]
