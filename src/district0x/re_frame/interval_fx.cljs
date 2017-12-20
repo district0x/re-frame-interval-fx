@@ -20,5 +20,6 @@
 (reg-fx
   :clear-interval
   (fn [{:keys [:id]}]
-    (js/clearInterval id)
-    (swap! registered-keys dissoc id)))
+    (when-let [interval-id (get @registered-keys id)]
+      (js/clearInterval interval-id)
+      (swap! registered-keys dissoc id))))

@@ -11,8 +11,8 @@
   :doo {:paths {:karma "./node_modules/karma/bin/karma"}}
 
   :npm {:devDependencies [[ws "2.0.1"]
-                          [karma "1.5.0"]
-                          [karma-chrome-launcher "2.0.0"]
+                          [karma "1.7.1"]
+                          [karma-chrome-launcher "2.2.0"]
                           [karma-cli "1.0.1"]
                           [karma-cljs-test "0.1.0"]]}
 
@@ -23,8 +23,7 @@
                    :plugins [[lein-cljsbuild "1.1.7"]
                              [lein-figwheel "0.5.14"]
                              [lein-doo "0.1.7"]
-                             [lein-npm "0.6.2"]]
-                   :source-paths ["dev"]}}
+                             [lein-npm "0.6.2"]]}}
 
   :cljsbuild {:builds [{:id "tests"
                         :source-paths ["src" "test"]
