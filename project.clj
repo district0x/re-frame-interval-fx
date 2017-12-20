@@ -6,11 +6,9 @@
   :dependencies [[org.clojure/clojurescript "1.9.946"]
                  [re-frame "0.10.2"]]
 
-  :figwheel {:server-port 4983}
-
   :doo {:paths {:karma "./node_modules/karma/bin/karma"}}
 
-  :npm {:devDependencies [[ws "2.0.1"]
+  :npm {:devDependencies [[ws "3.3.3"]
                           [karma "1.7.1"]
                           [karma-chrome-launcher "2.2.0"]
                           [karma-cli "1.0.1"]
@@ -18,11 +16,10 @@
 
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.8.0"]
                                   [com.cemerick/piggieback "0.2.2"]
-                                  [figwheel-sidecar "0.5.14"]
-                                  [org.clojure/tools.nrepl "0.2.13"]]
+                                  [org.clojure/tools.nrepl "0.2.13"]
+                                  [org.clojure/core.async "0.3.465"]]
                    :plugins [[lein-cljsbuild "1.1.7"]
-                             [lein-figwheel "0.5.14"]
-                             [lein-doo "0.1.7"]
+                             [lein-doo "0.1.8"]
                              [lein-npm "0.6.2"]]}}
 
   :cljsbuild {:builds [{:id "tests"
