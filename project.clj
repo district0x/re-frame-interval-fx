@@ -8,8 +8,7 @@
 
   :doo {:paths {:karma "./node_modules/karma/bin/karma"}}
 
-  :npm {:devDependencies [[ws "3.3.3"]
-                          [karma "1.7.1"]
+  :npm {:devDependencies [[karma "1.7.1"]
                           [karma-chrome-launcher "2.2.0"]
                           [karma-cli "1.0.1"]
                           [karma-cljs-test "0.1.0"]]}
