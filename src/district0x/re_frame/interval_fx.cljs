@@ -3,7 +3,7 @@
     [cljs.spec.alpha :as s]
     [re-frame.core :as re-frame :refer [reg-fx]]))
 
-(s/def ::dispatch (s/coll-of keyword))
+(s/def ::dispatch (s/coll-of keyword?))
 (s/def ::ms int?)
 (s/def ::id any?)
 (s/def ::dispatch-interval-args (s/keys :req-un [::dispatch ::ms ::id]))

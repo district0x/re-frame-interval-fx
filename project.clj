@@ -1,5 +1,5 @@
-(defproject district0x/re-frame-interval-fx "1.0.0"
-  :description "A re-frame effects handler for setting up intervals"
+(defproject district0x/re-frame-interval-fx "1.0.1"
+  :description "re-frame effects handler for setting up intervals"
   :url "https://github.com/district0x/re-frame-interval-fx"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
