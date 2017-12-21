@@ -1,4 +1,4 @@
-(defproject district0x/re-frame-interval-fx "1.0.1"
+(defproject district0x/re-frame-interval-fx "1.0.2"
   :description "re-frame effects handler for setting up intervals"
   :url "https://github.com/district0x/re-frame-interval-fx"
   :license {:name "Eclipse Public License"

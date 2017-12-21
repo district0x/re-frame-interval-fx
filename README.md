@@ -5,7 +5,7 @@
 [re-frame](https://github.com/Day8/re-frame) effect handler for setting up event calling in certain interval.
 
 ## Installation
-Add `[district0x/re-frame-interval-fx "1.0.1"]` into your project.clj    
+Add `[district0x/re-frame-interval-fx "1.0.2"]` into your project.clj    
 Include `[district0x.re-frame.interval-fx]` in your CLJS file
 
 ## Usage

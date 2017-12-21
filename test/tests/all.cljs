@@ -1,10 +1,13 @@
 (ns tests.all
   (:require
     [cljs.core.async :refer [<! >! chan alts! timeout]]
+    [cljs.spec.alpha :as s]
     [cljs.test :refer [deftest is testing run-tests async]]
     [district0x.re-frame.interval-fx]
     [re-frame.core :refer [reg-event-fx dispatch-sync]])
   (:require-macros [cljs.core.async.macros :refer [go]]))
+
+(s/check-asserts true)
 
 (reg-event-fx
   ::my-event
